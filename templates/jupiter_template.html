@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static',filename='static\css\style.css')}}">
+</head>
+
+<body>
+    <h1>Welcome to My Flask-JupyterLab Project</h1>
+    {{ jupyter_html | safe }}
+</body>
+
+</html>

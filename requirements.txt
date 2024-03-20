@@ -1,0 +1,4 @@
+1.  install flask - pip install flask
+2. install numpy - pip install numpy
+3. install pickle - import pickle
+4. install pandas - pip install pandas
